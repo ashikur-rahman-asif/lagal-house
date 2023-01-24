@@ -1,19 +1,57 @@
+/* google font  */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins&display=swap');
-body{
+
+body {
     font-family: 'EB Garamond', serif;
     font-family: 'Poppins', sans-serif;
 }
-:root{
+
+/* common style color */
+:root {
     --btn-color: #B68C5A;
     --bold-font-color: #414040;
     --text-color: #707070;
     --card-color: #CFCFCF;
 }
-.primary-color{
+
+/* ------------------------- */
+
+.primary-color {
     background-color: var(--btn-color);
-    color:white;
-    border:none;
+    color: white;
+    border: none;
 }
-.nav-item a{
+
+.nav-item a {
     color: var(--text-color);
+}
+
+
+.banner {
+    background-image: linear-gradient(360deg, rgba(17, 17, 17, 0.9), rgba(18, 18, 18, 0.1)), url('./images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'EB Garamond', serif;
+}
+p{
+    font-family: 'Poppins', sans-serif; 
+    color: var(--text-color);
+}
+@media screen and (max-width:662px) {
+    .header-field{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-field{
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .input-butn{
+        width: 105%;
+    }
 }
