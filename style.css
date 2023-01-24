@@ -71,4 +71,9 @@ p{
     .input-butn{
         width: 105%;
     }
+    .our-details{
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+    }
 }
