@@ -22,6 +22,7 @@ body {
     border: none;
 }
 
+
 .nav-item a {
     color: var(--text-color);
 }
@@ -40,6 +41,22 @@ p{
     font-family: 'Poppins', sans-serif; 
     color: var(--text-color);
 }
+.banner-image-1{
+    background-image: url("./images/slider-1.jpg");
+    height: 100vh;
+}
+.banner-image-2{
+    background-image: url("./images/slider-2.jpg");
+    height: 100vh;
+}
+.banner-image-3{
+    background-image: url("./images/slider-3.jpg");
+    height: 100vh;
+}
+.carousel-img img{
+    width:15%;
+}
+
 @media screen and (max-width:662px) {
     .header-field{
         display: flex;
