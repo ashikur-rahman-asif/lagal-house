@@ -43,6 +43,7 @@ p{
 }
 .banner-image-1{
     background-image: url("./images/slider-1.jpg");
+    background-position: cover;
     height: 100vh;
 }
 .banner-image-2{
